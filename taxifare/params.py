@@ -4,7 +4,7 @@ import numpy as np
 ##################  VARIABLES  ##################
 DATA_SIZE = "1k" # ["1k", "200k", "all"]
 CHUNK_SIZE = 200
-GCP_PROJECT = "<your project id>" # TO COMPLETE
+GCP_PROJECT = "le-wagon-492909" # TO COMPLETE
 GCP_PROJECT_WAGON = "wagon-public-datasets"
 BQ_DATASET = "taxifare"
 BQ_REGION = "EU"
@@ -26,4 +26,3 @@ DTYPES_RAW = {
 }
 
 DTYPES_PROCESSED = np.float32
-
